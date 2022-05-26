@@ -14,4 +14,15 @@
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
+
+  <ItemGroup>
+    	<NativeReference Include="WebP.a">
+			<Kind>Static</Kind>
+      		<SmartLink>true</SmartLink>
+		</NativeReference>
+    	<NativeReference Include="libWebPWrapper.a">
+			<Kind>Static</Kind>
+      		<SmartLink>true</SmartLink>
+		</NativeReference>
+  </ItemGroup>
 </Project>
