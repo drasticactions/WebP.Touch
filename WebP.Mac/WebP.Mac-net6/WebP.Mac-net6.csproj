@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net6.0-macos;net6.0-maccatalyst</TargetFrameworks>
+    <RootNamespace>WebP.Mac</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	  <Deterministic>False</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+</Project>
