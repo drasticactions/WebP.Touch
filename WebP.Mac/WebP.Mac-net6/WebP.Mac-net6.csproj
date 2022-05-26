@@ -33,4 +33,7 @@
       		<SmartLink>true</SmartLink>
 		</NativeReference>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WebPDecoder.cs" />
+  </ItemGroup>
 </Project>
