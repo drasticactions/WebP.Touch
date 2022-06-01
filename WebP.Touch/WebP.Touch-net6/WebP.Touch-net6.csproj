@@ -12,6 +12,8 @@
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 		<Deterministic>False</Deterministic>
+		<DebugType>Embedded</DebugType>
+    	<EmbedAllSources>True</EmbedAllSources>
 	</PropertyGroup>
 
 	<ItemGroup>
