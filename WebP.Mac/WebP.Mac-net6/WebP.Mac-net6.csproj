@@ -1,6 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net6.0-macos;net6.0-maccatalyst</TargetFrameworks>
+    <PackageId>Drastic.WebP.Mac</PackageId>
+    <Version>1.0.8</Version>
+    <Authors>Drastic Actions</Authors>
+    <Company>Drastic Actions</Company>
     <RootNamespace>WebP.Mac</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
